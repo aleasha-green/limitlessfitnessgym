@@ -1,8 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- add required and recommended <meta> tags -->
+<!--CHANGE URLS TO GITHUB PAGES -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Aleasha Green">
+  <meta name="description" content="Unleash your strength, embrace the challenge, and join a community dedicated to your fitness journey.">
+  <meta name="robots" content="index, follow">
 
+  <meta property="og:title" content="Limitless Fitness">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@limitlessfitness">
+  <meta name="twitter:creator" content="@limitless_aleasha">
+  <meta name="twitter:title" content="Limitless Fitness">
+  <meta name="twitter:description" content="Unleash your strength, embrace the challenge, and join a community dedicated to your fitness journey.">
+  <meta name="twitter:image" content="">
+
+  <title>Limitless Fitness</title>
 </head>
 <body>
   <a href="#main-content">Skip to Main Content</a>
@@ -18,16 +36,15 @@
     </svg> 
     <h1>Transform Your Life at Limitless Fitness</h1>
     <p>Unleash your strength, embrace the challenge, and join a community dedicated to your fitness journey.</p>
-    <a href="#">Join Now</a>
-      <img src="images/facility.jpg"
-           srcset="images/facility-320w.jpg 320w,
-                   images/facility-768w.jpg 768w,
-                   images/facility.jpg 1920w"
-           sizes="(max-width: 320px) 100vw,
-                  (max-width: 768px) 100vw,
-                  100vw"
-           alt="high contrast black and white photo of Limitless Fitness gym interior">
-
+    <a href="#membership-form">Join Now</a>
+    <img src="images/facility.jpg"
+      srcset="images/facility-320w.jpg 320w,
+              images/facility-768w.jpg 768w,
+              images/facility.jpg 1920w"
+      sizes="(max-width: 320px) 100vw,
+            (max-width: 768px) 100vw,
+            100vw"
+      alt="high contrast black and white photo of Limitless Fitness gym interior">
   </header>
   <nav>
     <h2>Main Navigation</h2>
@@ -64,10 +81,14 @@
         <li>Specialty Workshops: From functional training to mindfulness sessions.</li>
         <li>Check out our [Class Schedule] for times and detailed descriptions.</li>
       </ul>
-<!-- add alt text where necessary -->
-<!-- add responsive images for resolution switching -->
-        src="images/classes.jpg"
-
+      <img src="images/classes.jpg"
+        srcset="images/classes-320w.jpg 320w,
+                images/classes-768w.jpg 768w,
+                images/classes.jpg 1920w"
+        sizes="(max-width: 320px) 100vw,
+              (max-width: 768px) 100vw,
+              100vw"
+        alt="high contrast black and white photo of group weight-lifting class">
     </section>
     <section id="training">
       <h2>Personal Training</h2>
@@ -75,11 +96,15 @@
         Take your fitness to the next level with our one-on-one training sessions. Our certified trainers work with you to create a customized plan that fits your lifestyle and targets your specific goals.
         Ready for a change?
       </p> 
-      <a href="#">Book a Free Consultation today!</a>
-<!-- add alt text where necessary -->
-<!-- add responsive images for resolution switching -->
-        src="images/dumbells.jpg"
-
+      <a href="#membership-form">Book a Free Consultation today!</a>
+      <img src="images/dumbells.jpg"
+        srcset="images/dumbells-320w.jpg 320w,
+                images/dumbells-768w.jpg 768w,
+                images/dumbells.jpg 1920w"
+        sizes="(max-width: 320px) 100vw,
+              (max-width: 768px) 100vw,
+              100vw"
+        alt="high contrast black and white photo of dumbells on a rack">
     </section>
     <section id="membership">
       <h2>Membership Options</h2>
@@ -92,7 +117,7 @@
       <section id="membership-form">
         <h3>Join Limitless Fitness Today!</h3>
         <p>Fill out the form below to kickstart your fitness journey:</p>
-<!--add accessibility to the form-->
+
         <form action="post" method="https://wp.zybooks.com/form-viewer.php">
           <label for="full-name">Full Name</label>
           <input type="text" id="full-name" name="full-name" required>
@@ -121,12 +146,8 @@
   </main>
   <aside id="testimonials">
     <h2>Testimonials</h2>
-    <q>
-      Joining Limitless Fitness has completely transformed my approach to fitness. The supportive community and expert guidance have made all the difference! - Alex R.
-    </q>
-    <q>
-      The variety of classes and top-notch equipment keeps me motivated every single day.- Jamie L.
-    </q>
+    <q>Joining Limitless Fitness has completely transformed my approach to fitness. The supportive community and expert guidance have made all the difference! - Alex R.</q>
+    <q>The variety of classes and top-notch equipment keeps me motivated every single day.- Jamie L.</q>
   </aside>
   <footer>
     <section id="social">
@@ -152,9 +173,10 @@
     <section id="contact">
       <h2>Contact Us</h2>
       <address>
-        <p>1234 HIIT St. <br>
-        Mesa, AZ 85222 <br>
-        480-432-1234</p>
+        <p>1234 HIIT St.<br>
+        Mesa, AZ 85222<br>
+        <a href="tel:4804321234">480-432-1234</a>
+        </p>
       </address>
     </section>
   </footer>
